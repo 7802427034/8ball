@@ -1,0 +1,53 @@
+html {
+  background-image: url("img/Background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  animation-duration: 10s;
+  animation: 10s;
+}
+
+body {
+  background-color: #ffffffb3;
+  width: 600px;
+  padding-top: 30px;
+  margin: 25px auto;
+  border-radius: 10px;
+  text-align: center;
+}
+
+button {
+  font-variant: small-caps;
+  padding: 8px 20px;
+
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+@keyframes rainbow {
+  0% {
+    color: red;
+  }
+  20% {
+    color: orange;
+  }
+  40% {
+    color: yellow;
+  }
+  60% {
+    color: green;
+  }
+  80% {
+    color: blue;
+  }
+  100% {
+    color: violet;
+  }
+}
+.background {
+  animation: rainbow 2s infinite;
+}
